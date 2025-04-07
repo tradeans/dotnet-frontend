@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "chmod -R 755 node_modules"
   },
   "eslintConfig": {
     "extends": [
@@ -38,7 +39,8 @@
     ]
   },
   "engines": {
-    "node": "18.x || 20.x"
+    "node": "18.x || 20.x",
+    "npm": "8.x" 
   }
 }
 
